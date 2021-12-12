@@ -110,24 +110,24 @@ export const SlideTwoData = [
 
 export const FeatureOneData = [
   {
-    
-    title: "No Upfront Payments"
+    icon: "icon-wallet",
+    title: "متابعة ومراقبة حالة المريض وتطوراتها بالمستشفى أثناء وبعد العلاج    "
   },
   {
-    
-    title: "Satisfaction Guarantee"
+    icon: 'icon-diploma',
+    title: "ستقبال المريض ومرافقيه في المطار"
   },
   {
-    
-    title: "Emergency Service"
+    icon: 'icon-big_clock',
+    title: "الحجز في المستشفى أو الفندق أو الشقة على حسب رغباتكم "
   },
   {
-    
-    title: "Fixed Right Promise"
+    icon: 'icon-handshake',
+    title: "تأمين الوثائق اللازمة لإصدار تأشيرة الدخول للمريض ومرافقيه    "
   },
   {
-    
-    title: "8 Years Experience"
+    icon: 'icon-mechanic',
+    title: "عرض التقرير على أفضل الأطباء وتحديد خطة التشخيص والعلاج في أفضل المستشفيات الألمانية"
   }
 ];
 

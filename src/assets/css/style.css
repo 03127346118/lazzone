@@ -116,7 +116,7 @@ ul {
 }
 h1,
 h2,
-h3,
+
 h4,
 h5,
 h6 {
@@ -195,7 +195,7 @@ body {
 .btn-yellow {
   background-color: #ffd763;
   color: #38373c;
-  padding: 17px 40px;
+  padding: 40px 40px;
   display: inline-block;
   font-weight: 700;
   text-decoration: none !important;
@@ -3300,4 +3300,7 @@ input.half_width {
 
 .blog-page .row {
   --bs-gutter-y: 30px;
+
 }
+
+
