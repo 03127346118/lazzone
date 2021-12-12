@@ -17,7 +17,12 @@ import galleryOne6 from "@/images/gallery/gallery-6.jpg";
 import testimonial1 from "@/images/testimonial/testimonial-1.jpg";
 import testimonial2 from "@/images/testimonial/testimonial-2.jpg";
 import testimonial3 from "@/images/testimonial/testimonial-3.jpg";
-
+import blog1 from "@/images/blog/blog-1.jpg";
+import blog2 from "@/images/blog/blog-2.jpg";
+import blog3 from "@/images/blog/blog-3.jpg";
+import blog4 from "@/images/blog/blog-4.jpg";
+import blog5 from "@/images/blog/blog-5.jpg";
+import blog6 from "@/images/blog/blog-6.jpg";
 import team1 from "@/images/team/team-1.jpg";
 import team2 from "@/images/team/team-2.jpg";
 import team3 from "@/images/team/team-3.jpg";
@@ -388,7 +393,97 @@ export const FooterWidgets = {
   }
 };
 
+export const BlogOneData = {
+  title: "Our latest news",
+  posts: [
+    {
+      image: blog1,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "How does a ductless heat pump work?",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog2,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Simple hack to improve A/C efficiency",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog3,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Preparing your home before vacation",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    }
+  ]
+};
 
+export const BlogTwoData = {
+  posts: [
+    {
+      image: blog1,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "How does a ductless heat pump work?",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog2,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Simple hack to improve A/C efficiency",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog3,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Preparing your home before vacation",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog4,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Heating and cooling safety issues",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog5,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Don’t neglect your outdoor unit",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    },
+    {
+      image: blog6,
+      date: "07 Nov",
+      author: "admin",
+      commentCount: 3,
+      title: "Have your system professionally inspected",
+      url: "/blog-details",
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+    }
+  ]
+};
 
 export const VideoOneData = {
   title: "Watch how we work",
