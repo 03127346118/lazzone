@@ -7,6 +7,8 @@ import slideOneImage5 from "@/images/slider/slider-5.jpg";
 import serviceImage1 from "@/images/services/service-1.jpg";
 import serviceImage2 from "@/images/services/service-2.jpg";
 import serviceImage3 from "@/images/services/service-3.jpg";
+import serviceImage4 from "@/images/services/service-4.jpg";
+import serviceImage5 from "@/images/services/service-5.jpg";
 import funfactShape from "@/images/shape/about-shape.png";
 import galleryOne1 from "@/images/gallery/gallery-1.jpg";
 import galleryOne2 from "@/images/gallery/gallery-2.jpg";
@@ -145,36 +147,58 @@ export const AboutOneData = {
 export const ServiceOneData = {
   title: "Our services",
   posts: [
-    {
-      image: serviceImage1,
-      icon: "icon-snow",
-      title: "Cooling Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
-      button: {
-        label: "LEARN MORE",
-        url: "/service-details"
-      }
-    },
-    {
-      image: serviceImage2,
-      icon: "icon-fire",
-      title: "Heating Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
-      button: {
-        label: "LEARN MORE",
-        url: "/service-details"
-      }
-    },
+    
     {
       image: serviceImage3,
-      icon: "icon-ac",
-      title: "Other Services",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+      
+      title: "خدمات المرافقين ",
+      
       button: {
         label: "LEARN MORE",
         url: "/service-details"
       }
-    }
+    },
+    
+    {
+      image: serviceImage2,
+     
+      title: "رعاية المرضى",
+      
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    {
+      image: serviceImage1,
+      title:' لنقل',
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    
+    {
+      image: serviceImage4,
+      
+      title: "الإقامة",
+     
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+    {
+      image: serviceImage5,
+      
+      title: "التأشيرة",
+      
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details"
+      }
+    },
+
   ]
 };
 
