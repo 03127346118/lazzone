@@ -36,7 +36,7 @@ export const Logo = {
 
 export const NavLinksData = [
   {
-    name: "Home",
+    
     url: "/"
   },
  

@@ -27,13 +27,13 @@ const SliderOne = () => {
 
               <Container>
                 <Row>
-                  <Col lg="6">
+                  <Col lg={{span:"6",offset:"6"}}>
                     <p className="main-slider__subtext">
                       <span className="subtitle_number">0{index + 1}</span>{" "}
                       {text}
                     </p>
                     <h1 className="main-slider__title">{title}</h1>
-                    <div className="slide_button">
+                    <div className="slide_button" style={{textAlign:'right'}}>
                       <Link href={url} className="btn-yellow">
                         {button}
                       </Link>
