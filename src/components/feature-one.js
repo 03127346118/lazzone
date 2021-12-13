@@ -8,7 +8,7 @@ const FeatureOne = () => {
       {FeatureOneData.map(({ icon, title }, index) => (
         <div className="feature_service_box_width" key={`feature-one-${index}`}>
           <i className={icon}></i>
-          <i ><h3 style={{backgroundColor:"yellow",borderColor:"yellow",borderRadius:"50%",width:"25px",height:"25px",color:"black",display:'inline-block',textAlign:"center"}}>{mySet=mySet-1}</h3></i>
+          <i ><h3 style={{backgroundColor:"yellow",borderColor:"yellow",borderRadius:"50%",width:"30px",height:"30px",color:"black",display:'inline-block',textAlign:"center"}}>{mySet=mySet-1}</h3></i>
           
           <p>{title}</p>
         </div>
