@@ -1,4 +1,4 @@
-import logoDark from "@/images/logo.png";
+import logoDark from "@/images/GHS.jpg";
 import slideOneImage1 from "@/images/slider/slider-1.jpg";
 import slideOneImage2 from "@/images/slider/slider-2.jpg";
 import slideOneImage3 from "@/images/slider/slider-3.jpg";
@@ -9,6 +9,7 @@ import serviceImage2 from "@/images/services/service-2.jpg";
 import serviceImage3 from "@/images/services/service-3.jpg";
 import serviceImage4 from "@/images/services/service-4.jpg";
 import serviceImage5 from "@/images/services/service-5.jpg";
+import serviceImage6 from "@/images/services/services-6.jpg";
 import funfactShape from "@/images/shape/about-shape.png";
 import galleryOne1 from "@/images/gallery/gallery-1.jpg";
 import galleryOne2 from "@/images/gallery/gallery-2.jpg";
@@ -33,15 +34,13 @@ import comment1 from "@/images/comment-1.jpg";
 import comment2 from "@/images/comment-2.jpg";
 
 export const Logo = {
-  dark: logoDark
+  dark: logoDark,
 };
 
 export const NavLinksData = [
   {
-    
-    url: "/"
+    url: "/",
   },
- 
 ];
 
 export const TopbarInfos = [
@@ -49,20 +48,20 @@ export const TopbarInfos = [
     icon: "icon-placeholder",
     tagLine: "Address",
     text: "66 Broklyn Street, New York",
-    url: "#"
+    url: "#",
   },
   {
     icon: "fa fa-whatsapp",
     tagLine: "Call Now",
     text: "666 888 000",
-    url: "tel:666-888-000"
+    url: "tel:666-888-000",
   },
   {
     icon: "icon-clock",
     tagLine: "Open Hours",
     text: " Mon-Sat: 9am - 6pm",
-    url: "#"
-  }
+    url: "#",
+  },
 ];
 
 export const SlideOneData = [
@@ -71,22 +70,22 @@ export const SlideOneData = [
     title: "Heating and Air Conditioning Specialist",
     text: "Choose the Best Company",
     button: "GET A FREE QUOTE",
-    url: "/contact"
+    url: "/contact",
   },
   {
     backgroundImage: slideOneImage2,
     title: "Installation Services & Repair",
     text: "Reliable Air Conditioning",
     button: "GET A FREE QUOTE",
-    url: "/contact"
+    url: "/contact",
   },
   {
     backgroundImage: slideOneImage3,
     title: "Heating and Air Conditioning Specialist",
     text: "Choose the Best Company",
     button: "GET A FREE QUOTE",
-    url: "/contact"
-  }
+    url: "/contact",
+  },
 ];
 
 export const SlideTwoData = [
@@ -94,131 +93,142 @@ export const SlideTwoData = [
     backgroundImage: slideOneImage4,
     title: "Heating and Air Conditioning Specialis",
     button: "GET A FREE QUOTE",
-    url: "/contact"
+    url: "/contact",
   },
   {
     backgroundImage: slideOneImage5,
     title: "Keep your family happy this winter, and warm.",
     button: "GET A FREE QUOTE",
-    url: "/contact"
+    url: "/contact",
   },
   {
     backgroundImage: slideOneImage4,
     title: "Heating and Air Conditioning Specialist",
     button: "GET A FREE QUOTE",
-    url: "/contact"
-  }
+    url: "/contact",
+  },
 ];
 
 export const FeatureOneData = [
   {
     icon: "icon-wallet",
-    title: "متابعة ومراقبة حالة المريض وتطوراتها بالمستشفى أثناء وبعد العلاج    "
+    title:
+      "متابعة ومراقبة حالة المريض وتطوراتها بالمستشفى أثناء وبعد العلاج    ",
   },
   {
-    icon: 'icon-diploma',
-    title: "ستقبال المريض ومرافقيه في المطار"
+    icon: "icon-diploma",
+    title: "ستقبال المريض ومرافقيه في المطار",
   },
   {
-    icon: 'icon-big_clock',
-    title: "الحجز في المستشفى أو الفندق أو الشقة على حسب رغباتكم "
+    icon: "icon-big_clock",
+    title: "الحجز في المستشفى أو الفندق أو الشقة على حسب رغباتكم ",
   },
   {
-    icon: 'icon-handshake',
-    title: "تأمين الوثائق اللازمة لإصدار تأشيرة الدخول للمريض ومرافقيه    "
+    icon: "icon-handshake",
+    title: "تأمين الوثائق اللازمة لإصدار تأشيرة الدخول للمريض ومرافقيه    ",
   },
   {
-    icon: 'icon-mechanic',
-    title: "عرض التقرير على أفضل الأطباء وتحديد خطة التشخيص والعلاج في أفضل المستشفيات الألمانية"
-  }
+    icon: "icon-mechanic",
+    title:
+      "عرض التقرير على أفضل الأطباء وتحديد خطة التشخيص والعلاج في أفضل المستشفيات الألمانية",
+  },
 ];
 
 export const AboutOneData = {
-  title: "Heating and air conditioning repair and installation company",
-  tagLine: "Welcome to loazzne",
+  title:
+    "تتكون شركتنا من فريق عمل ذو خبرة واسعة في جميع المجالات المتخصصة في الميدان الطبي حيث يجمع بين المعرفة العميقة بالعادات والثقافة العربية بالإضافة إلى الخبرة في مجال الخدمات الطبية وإدارة الأعمال.",
+  tagLine: "من نحن",
   content:
-    "There are many variations of passages of lorem ipsum available, but the majorify have suffered alteration in some form by injected humour, or randmised words which don't look even slightly believable.",
+    "بدأ خدماتنا إبتداء بعد إستلام التقارير الطبية الخاصة بالحالة المرضية والتي يفضل أن تكون باللغة الإنجليزية، بعد ذلك نشرع مباشرة بالترتيب والتنسيق الكاملين مع المستشفيات الألمانية",
   button: {
     url: "/about",
-    label: "LEARN MORE"
-  }
+    label: "LEARN MORE",
+  },
 };
 
 export const ServiceOneData = {
   title: "Our services",
   posts: [
-    
     {
       image: serviceImage3,
-      
+
       title: "خدمات المرافقين ",
-      
+
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
-      }
+        url: "/service-details",
+      },
     },
-    
+
     {
       image: serviceImage2,
-     
+
       title: "رعاية المرضى",
-      
+
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
-      }
+        url: "/service-details",
+      },
     },
     {
       image: serviceImage1,
-      title:' لنقل',
+      title: " لنقل",
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
-      }
+        url: "/service-details",
+      },
     },
-    
+
     {
       image: serviceImage4,
-      
+
       title: "الإقامة",
-     
+
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
-      }
+        url: "/service-details",
+      },
     },
     {
       image: serviceImage5,
-      
+
       title: "التأشيرة",
-      
+
       button: {
         label: "LEARN MORE",
-        url: "/service-details"
-      }
+        url: "/service-details",
+      },
     },
+    {
+      image: serviceImage6,
 
-  ]
+      title: "الترجمة",
+
+      button: {
+        label: "LEARN MORE",
+        url: "/service-details",
+      },
+    },
+  ],
 };
 
 export const CallToActionOneData = {
   title: "No overtime charges, 7 days a week",
   button: {
     url: "/contact",
-    label: "GET A FREE QUOTE"
-  }
+    label: "GET A FREE QUOTE",
+  },
 };
 
 export const CallToActionTwoData = {
   left: {
     text: "Air Conditioning Services",
-    title: "Cool it down"
+    title: "Cool it down",
   },
   right: {
     text: "Heating Services",
-    title: "Heat it up"
-  }
+    title: "Heat it up",
+  },
 };
 
 export const FunfactOneData = {
@@ -227,50 +237,50 @@ export const FunfactOneData = {
   posts: [
     {
       count: 8870,
-      text: "Air Conditioning Repairs and Install"
+      text: "Air Conditioning Repairs and Install",
     },
     {
       count: 4760,
-      text: "Air Conditioning Repairs and Install"
+      text: "Air Conditioning Repairs and Install",
     },
     {
       count: 9032,
-      text: "Air Conditioning Repairs and Install"
-    }
-  ]
+      text: "Air Conditioning Repairs and Install",
+    },
+  ],
 };
 
 export const GalleryOneData = [
   {
     title: "Maintenance and Repair",
     image: galleryOne1,
-    url: "#"
+    url: "#",
   },
   {
     title: "Maintenance and Repair",
     image: galleryOne2,
-    url: "#"
+    url: "#",
   },
   {
     title: "Maintenance and Repair",
     image: galleryOne3,
-    url: "#"
+    url: "#",
   },
   {
     title: "Maintenance and Repair",
     image: galleryOne4,
-    url: "#"
+    url: "#",
   },
   {
     title: "Maintenance and Repair",
     image: galleryOne5,
-    url: "#"
+    url: "#",
   },
   {
     title: "Maintenance and Repair",
     image: galleryOne6,
-    url: "#"
-  }
+    url: "#",
+  },
 ];
 
 export const TestimonialOneData = {
@@ -281,65 +291,65 @@ export const TestimonialOneData = {
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Della Barnett",
-      designation: "CEO"
+      designation: "CEO",
     },
     {
       image: testimonial2,
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Max Dunn",
-      designation: "Developer"
+      designation: "Developer",
     },
     {
       image: testimonial3,
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Alberta Potter",
-      designation: "Director"
+      designation: "Director",
     },
     {
       image: testimonial1,
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Della Barnett",
-      designation: "CEO"
+      designation: "CEO",
     },
     {
       image: testimonial2,
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Max Dunn",
-      designation: "Developer"
+      designation: "Developer",
     },
     {
       image: testimonial3,
       content:
         "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
       name: "Alberta Potter",
-      designation: "Director"
-    }
-  ]
+      designation: "Director",
+    },
+  ],
 };
 
 export const FooterBottomData = {
   social: [
     {
       icon: "fa fa-twitter",
-      url: "#"
+      url: "#",
     },
     {
       icon: "fa fa-facebook-f",
-      url: "#"
+      url: "#",
     },
     {
       icon: "fa fa-linkedin",
-      url: "#"
+      url: "#",
     },
     {
       icon: "fa fa-youtube-play",
-      url: "#"
-    }
-  ]
+      url: "#",
+    },
+  ],
 };
 
 export const FooterInfo = [
@@ -347,20 +357,20 @@ export const FooterInfo = [
     icon: "icon-placeholder",
     tagLine: "Address",
     text: "66 Broklyn Street, New York",
-    url: "#"
+    url: "#",
   },
   {
     icon: "icon-contact",
     tagLine: "Email",
     text: "help@loazzne.com",
-    url: "mailto:help@loazzne.com"
+    url: "mailto:help@loazzne.com",
   },
   {
     icon: "icon-clock",
     tagLine: "Open Hours",
     text: " Mon-Sat: 9am - 6pm",
-    url: "#"
-  }
+    url: "#",
+  },
 ];
 
 export const FooterWidgets = {
@@ -368,53 +378,53 @@ export const FooterWidgets = {
     title: "About Loazzne",
     text: "At Lennom, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
     tagLine: "Get a Quote",
-    phone: "666 888 000"
+    phone: "666 888 000",
   },
   linkOne: {
     title: "Quick Links",
     menu: [
       {
         lable: "Services",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Request Appointment",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Site Map",
-        url: "#"
+        url: "#",
       },
       {
         lable: "About Us",
-        url: "#"
-      }
-    ]
+        url: "#",
+      },
+    ],
   },
   linkTwo: {
     menu: [
       {
         lable: "Careers",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Privacy Policy",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Change Location",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Expert Tips",
-        url: "#"
+        url: "#",
       },
       {
         lable: "Terms & Conditions",
-        url: "#"
-      }
-    ]
-  }
+        url: "#",
+      },
+    ],
+  },
 };
 
 export const BlogOneData = {
@@ -427,7 +437,7 @@ export const BlogOneData = {
       commentCount: 3,
       title: "How does a ductless heat pump work?",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog2,
@@ -436,7 +446,7 @@ export const BlogOneData = {
       commentCount: 3,
       title: "Simple hack to improve A/C efficiency",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog3,
@@ -445,9 +455,9 @@ export const BlogOneData = {
       commentCount: 3,
       title: "Preparing your home before vacation",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
-    }
-  ]
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+    },
+  ],
 };
 
 export const BlogTwoData = {
@@ -459,7 +469,7 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "How does a ductless heat pump work?",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog2,
@@ -468,7 +478,7 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "Simple hack to improve A/C efficiency",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog3,
@@ -477,7 +487,7 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "Preparing your home before vacation",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog4,
@@ -486,7 +496,7 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "Heating and cooling safety issues",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog5,
@@ -495,7 +505,7 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "Don’t neglect your outdoor unit",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
     },
     {
       image: blog6,
@@ -504,14 +514,14 @@ export const BlogTwoData = {
       commentCount: 3,
       title: "Have your system professionally inspected",
       url: "/blog-details",
-      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration."
-    }
-  ]
+      text: "There are many variations passages of lorem ipsum available but the majority have suffered alteration.",
+    },
+  ],
 };
 
 export const VideoOneData = {
   title: "Watch how we work",
-  id: "8DP4NgupAhI"
+  id: "8DP4NgupAhI",
 };
 
 export const AboutTwoData = {
@@ -519,32 +529,32 @@ export const AboutTwoData = {
   blockTitle: {
     title:
       "We are trusted source of ac and heating maintenance repairs company",
-    tagline: "Why choose us"
+    tagline: "Why choose us",
   },
   lists: [
     {
-      text: " Unmatched performance, satisfaction service guarantees"
+      text: " Unmatched performance, satisfaction service guarantees",
     },
     {
-      text: " Home protection through our shoe covers and mats"
+      text: " Home protection through our shoe covers and mats",
     },
     {
-      text: " Upfront, flat rate pricing—no overtime charges"
+      text: " Upfront, flat rate pricing—no overtime charges",
     },
     {
-      text: " 24 / 7 availability for all emergency services"
+      text: " 24 / 7 availability for all emergency services",
     },
     {
-      text: " Fixed right promise—done right or it’s free"
+      text: " Fixed right promise—done right or it’s free",
     },
     {
-      text: " Clear communication and updates on service arrival"
-    }
+      text: " Clear communication and updates on service arrival",
+    },
   ],
   offer: {
     tagline: "10% off",
-    text: "on our all services for senior citizens."
-  }
+    text: "on our all services for senior citizens.",
+  },
 };
 
 export const TeamOneData = {
@@ -557,17 +567,17 @@ export const TeamOneData = {
       social: [
         {
           icon: "fa-facebook",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-twitter",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-youtube-play",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team2,
@@ -576,17 +586,17 @@ export const TeamOneData = {
       social: [
         {
           icon: "fa-facebook",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-twitter",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-youtube-play",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team3,
@@ -595,17 +605,17 @@ export const TeamOneData = {
       social: [
         {
           icon: "fa-facebook",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-twitter",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-youtube-play",
-          url: "#"
-        }
-      ]
+          url: "#",
+        },
+      ],
     },
     {
       image: team4,
@@ -614,42 +624,42 @@ export const TeamOneData = {
       social: [
         {
           icon: "fa-facebook",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-twitter",
-          url: "#"
+          url: "#",
         },
         {
           icon: "fa-youtube-play",
-          url: "#"
-        }
-      ]
-    }
-  ]
+          url: "#",
+        },
+      ],
+    },
+  ],
 };
 
 export const AboutThreeData = {
   blockTitle: {
     tagline: "Our success story",
-    title: "Experience quality air conditioning service in broklyn new york"
+    title: "Experience quality air conditioning service in broklyn new york",
   },
   summery:
     "There are many variations of passages of lorem ipsum available, but the majorify have suffered alteration in some form by injected humour, or randmised words which don't look even slightly believable.",
   button: {
     lable: "LEARN MORE",
-    url: "/about"
+    url: "/about",
   },
   box: [
     {
       icon: "icon-maintenance",
-      title: "We make as cool again"
+      title: "We make as cool again",
     },
     {
       icon: "icon-big-ac",
-      title: "Keep your business cool"
-    }
-  ]
+      title: "Keep your business cool",
+    },
+  ],
 };
 
 export const AboutFourData = {
@@ -658,8 +668,8 @@ export const AboutFourData = {
     text1:
       "Tincidunt elit magnis nulla facilisis sagittis is maecenas. Sapien nunced amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci.",
     text2:
-      "Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many varia-tions of passages of available but the majarity have suffered."
-  }
+      "Lorem ipsum dolors sit amet elit magnis amet ultrices purusrfed aliquet. There are many varia-tions of passages of available but the majarity have suffered.",
+  },
 };
 
 export const BenefitOneData = {
@@ -668,24 +678,24 @@ export const BenefitOneData = {
     {
       icon: "icon-big_clock",
       title: "Emergency Service",
-      text: "There are many passages of lorem ipsum available but the majority have alteration."
+      text: "There are many passages of lorem ipsum available but the majority have alteration.",
     },
     {
       icon: "icon-wallet",
       title: "No Upfront Payment",
-      text: "There are many passages of lorem ipsum available but the majority have alteration."
+      text: "There are many passages of lorem ipsum available but the majority have alteration.",
     },
     {
       icon: "icon-diploma",
       title: "Satisfaction Guarantee",
-      text: "There are many passages of lorem ipsum available but the majority have alteration."
+      text: "There are many passages of lorem ipsum available but the majority have alteration.",
     },
     {
       icon: "icon-mechanic",
       title: "8 Years Experience",
-      text: "There are many passages of lorem ipsum available but the majority have alteration."
-    }
-  ]
+      text: "There are many passages of lorem ipsum available but the majority have alteration.",
+    },
+  ],
 };
 
 export const ServiceSidebarListData = [
@@ -695,25 +705,25 @@ export const ServiceSidebarListData = [
     list: [
       {
         label: "Air Conditioner Maintenance",
-        url: "#"
+        url: "#",
       },
       {
         label: "Air Conditioner Repair",
-        url: "#"
+        url: "#",
       },
       {
         label: "Air Conditioner Replacement",
-        url: "#"
+        url: "#",
       },
       {
         label: "Ductless Split AC Systems",
-        url: "#"
+        url: "#",
       },
       {
         label: "Duct Cleaning & Installation",
-        url: "#"
-      }
-    ]
+        url: "#",
+      },
+    ],
   },
   {
     icon: "icon-fire",
@@ -721,26 +731,26 @@ export const ServiceSidebarListData = [
     list: [
       {
         label: "Air Conditioner Maintenance",
-        url: "#"
+        url: "#",
       },
       {
         label: "Air Conditioner Repair",
-        url: "#"
+        url: "#",
       },
       {
         label: "Air Conditioner Replacement",
-        url: "#"
+        url: "#",
       },
       {
         label: "Ductless Split AC Systems",
-        url: "#"
+        url: "#",
       },
       {
         label: "Duct Cleaning & Installation",
-        url: "#"
-      }
-    ]
-  }
+        url: "#",
+      },
+    ],
+  },
 ];
 
 export const ServiceSidebarOtherData = [
@@ -749,17 +759,17 @@ export const ServiceSidebarOtherData = [
     title: "Other Services",
     content: {
       icon: "icon-support",
-      title: "<span>Contact with us </span>666 888 000"
-    }
+      title: "<span>Contact with us </span>666 888 000",
+    },
   },
   {
     icon: "icon-building",
     title: "Commercial Services",
     content: {
       icon: "icon-building",
-      title: "<span>Contact with us </span>666 888 000"
-    }
-  }
+      title: "<span>Contact with us </span>666 888 000",
+    },
+  },
 ];
 
 export const CommentPostData = [
@@ -767,12 +777,12 @@ export const CommentPostData = [
     name: "David Martin",
     image: comment1,
     time: "10 Nov, 2018 - 4:00 pm",
-    text: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et aliquet."
+    text: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et aliquet.",
   },
   {
     name: "Jessica Brown",
     image: comment2,
     time: "10 Nov, 2018 - 4:00 pm",
-    text: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et aliquet."
-  }
+    text: "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et aliquet.",
+  },
 ];

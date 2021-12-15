@@ -32,7 +32,7 @@
 */
 /*basic content*/
 * {
-  font-family: 'Noto Kufi Arabic';
+  font-family: 'NotoKufiArabic';
   margin: 0;
   padding: 0;
 }
@@ -140,10 +140,10 @@ body {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  font-family: 'Noto Kufi Arabic';
+  font-family: 'NotoKufiArabic';
 }
 .mb-30 {
   margin-bottom: 30px;
@@ -748,7 +748,7 @@ body {
 .feature_service_box_width p {
   color: #ffffff;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 400;
   
   margin-left: auto;
   margin-right: auto;
@@ -855,7 +855,7 @@ body {
   position: relative;
   height: 435px;
   width: 95%;
-  background: url(../images/about-2-1.jpg) center center no-repeat;
+  background: url(../images/DSC03978.jpg) center center no-repeat;
   background-size: cover;
 }
 .about_image .about_service_box_1 {

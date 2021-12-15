@@ -14,13 +14,15 @@ const ServiceOne = () => {
               <h1>{title}</h1>
             </div>
           </div>
-          
-          {posts.map(({ image,  title, text, button }, index) => (
-            <div className="col-lg-4 col-md-6" key={`service-one-key-${index=posts.length+1}`}>
+
+          {posts.map(({ image, title, text, button }, index) => (
+            <div
+              className="col-lg-4 col-md-6"
+              key={`service-one-key-${(index = posts.length + 1)}`}
+            >
               <div className="service_box">
                 <div className="service_img">
                   <Img src={image} alt="service 1" className="img-fluid" />
-                  
                 </div>
                 <div className="service_details">
                   <Link href={button.url}>
