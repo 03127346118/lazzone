@@ -5,7 +5,7 @@ const ContactOne = () => {
     <section className="contact_form_area">
       <div className="contact_form_width">
         <h1 className="contact_map_title text-center">
-          We&apos;re not putting on airs - our work is guaranteed to satisfy.
+        نحن لا نعرض على الأجواء ويضمن عملنا أن يرضي.
         </h1>
         <div id="map">
         <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1CpokyruJBivVOF-xLS6Nr5ytF7Jl2gRf&ehbc=2E312F" width="640" height="480"></iframe>

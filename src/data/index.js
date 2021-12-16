@@ -41,6 +41,12 @@ export const NavLinksData = [
   {
     url: "/",
   },
+ 
+ 
+ 
+  {
+    name: "الرئيسية ",
+  },
   {
     name: "اتصل بنا     ",
   },
@@ -50,12 +56,6 @@ export const NavLinksData = [
   {
     name: "من نحن  ",
   },
-  {
-    name: "الرئيسية ",
-  },
-  
-  
-  
 ];
 
 export const TopbarInfos = [
