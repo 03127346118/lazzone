@@ -15,10 +15,6 @@ const ServiceInfo = () => {
             </div>
             <div className="justify-content-center d-flex">
               <p className="col-md-10 ">
-                Loazzne® is a heating and cooling service company with a history
-                of excellence, customer service, and quality craftsmanship. We
-                specialize in HVAC service, replacement, and repair for both
-                residential and commercial customers in North America.
               </p>
             </div>
           </div>

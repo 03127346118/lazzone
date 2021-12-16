@@ -11,6 +11,19 @@
 }
 
 @font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome-webfont.eot');
+  src: url('../fonts/fontawesome-webfont.eot') format('embedded-opentype'),
+    url('../fonts/fontawesome-webfont.woff2') format('woff2'),
+    url('../fonts/fontawesome-webfont.woff') format('woff'),
+    url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+    url('../fonts/fontawesome-webfont.svg') format('svg');
+  src: url('../fonts/FontAwesome.otf') format('opentype'); 
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "NotoKufiArabic";
   src: url("../fonts/NotoKufiArabic.ttf");
   src: url("../fonts/NotoKufiArabic.ttf") format("truetype");
@@ -121,3 +134,7 @@
 .icon-ac:before {
   content: "\e812";
 } /* '' */
+
+.icon-move:before { content: '\f047'; } /* '' */
+.icon-doc-text-inv:before { content: '\f15c'; } /* '' */
+.icon-right-circled2:before { content: '\f18e'; } /* '' */

@@ -1,0 +1,1 @@
+import "./src/assets/css/font-awesome.min.css"

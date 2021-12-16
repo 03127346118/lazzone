@@ -91,7 +91,7 @@ const HeaderOne = () => {
                 })}
               </ul>
             </nav>
-            <Link href="/contact" className="btn-yellow">
+            <Link href="#contact" className="btn-yellow">
               اتصل بنا الآن
             </Link>
           </div>

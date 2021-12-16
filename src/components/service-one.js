@@ -6,7 +6,7 @@ import Img from "@/components/img";
 const ServiceOne = () => {
   const { title, posts } = ServiceOneData;
   return (
-    <section className="service_area section_padding">
+    <section id="services" className="service_area section_padding">
       <div className="container">
         <div className="row">
           <div className="col-md-12">
@@ -29,7 +29,7 @@ const ServiceOne = () => {
                     <h2>{title}</h2>
                   </Link>
                   <p>{text}</p>
-                  <Link href={button.url} className="btn-yellow">
+                  <Link href="#" className="btn-yellow">
                     {button.label}
                   </Link>
                 </div>

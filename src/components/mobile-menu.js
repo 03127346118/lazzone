@@ -66,10 +66,7 @@ const MobileMenu = () => {
           </ul>
         </nav>
         <div className="mobile-menu__text">
-          Loazzne is a modern & professional NextJS Template for air
-          conditioning, cooling/heating, HVAC and ventilation services. It is
-          also very good for any other home repair, services and maintenance
-          businesses.
+          
         </div>
         <div className="mobile-menu__socials">
           {FooterBottomData.social.map(({ icon, url }, index) => {

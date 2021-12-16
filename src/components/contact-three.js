@@ -26,8 +26,8 @@ const ContactThree = () => {
                 <div className="contact_location_map contact_location_call">
                   <span className="icon-contact_call"></span>
                   <p>
-                    help@loazzne.com <br />
-                    666 888 000
+                    {/* help@loazzne.com <br />
+                    666 888 000 */}
                   </p>
                 </div>
               </div>

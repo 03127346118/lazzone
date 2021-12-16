@@ -5,7 +5,7 @@ import React from "react";
 const AboutOne = () => {
   const { title, tagLine, content, button } = AboutOneData;
   return (
-    <section className="about_area section_padding">
+    <section id="about" className="about_area section_padding">
       <div className="container">
         <div className="row">
           <div className="col-md-6">
@@ -18,9 +18,9 @@ const AboutOne = () => {
                 <h1>{title}</h1>
               </div>
               <p>{content}</p>
-              <Link href={button.url} className="btn-yellow">
+              {/* <Link href={button.url} className="btn-yellow">
                 {button.label}
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>

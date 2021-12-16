@@ -29,14 +29,7 @@ const SliderOne = () => {
                 <Row>
                   <Col lg={{ span: "6", offset: "6" }}>
                     <div
-                      style={{
-                        position: "absolute",
-                        height: "100%",
-                        width: "60%",
-                        right: "-20px",
-                        backgroundColor: "white",
-                        opacity: "0.8",
-                      }}
+                     className="slider_overlay"
                     ></div>
                     <p className="main-slider__subtext">
                       <span className="subtitle_number mt-4 mb-5"></span>{" "}
@@ -47,9 +40,9 @@ const SliderOne = () => {
                       className="slide_button"
                       style={{ textAlign: "right" }}
                     >
-                      <Link href={url} className="btn-yellow">
+                      {/* <Link href={url} className="btn-yellow">
                         {button}
-                      </Link>
+                      </Link> */}
                     </div>
                   </Col>
                 </Row>

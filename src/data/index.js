@@ -41,20 +41,25 @@ export const NavLinksData = [
   {
     url: "/",
   },
- 
- 
- 
+
   {
     name: "الرئيسية ",
-  },
-  {
-    name: "اتصل بنا     ",
-  },
-  {
-    name: "خدماتنا   ",
+
+    url: "/",
   },
   {
     name: "من نحن  ",
+
+    url: "#about",
+  },
+
+  {
+    name: "خدماتنا   ",
+    url: "#services",
+  },
+  {
+    name: "اتصل بنا     ",
+    url: "#contact",
   },
 ];
 
@@ -123,26 +128,27 @@ export const SlideTwoData = [
 
 export const FeatureOneData = [
   {
-    icon: "icon-wallet",
+    icon: "icon-invoice",
     title:
-      "متابعة ومراقبة حالة المريض وتطوراتها بالمستشفى أثناء وبعد العلاج    ",
+      "عرض التقرير على أفضل الأطباء وتحديد خطة التشخيص والعلاج في أفضل المستشفيات الألمانية",
+  },
+ 
+  {
+    icon: "icon-handshake",
+    title: "تأمين الوثائق اللازمة لإصدار تأشيرة الدخول للمريض ومرافقيه    ",
+  },
+  {
+    icon: "icon-clock",
+    title: "الحجز في المستشفى أو الفندق أو الشقة على حسب رغباتكم ",
   },
   {
     icon: "icon-diploma",
     title: "ستقبال المريض ومرافقيه في المطار",
   },
   {
-    icon: "icon-big_clock",
-    title: "الحجز في المستشفى أو الفندق أو الشقة على حسب رغباتكم ",
-  },
-  {
-    icon: "icon-handshake",
-    title: "تأمين الوثائق اللازمة لإصدار تأشيرة الدخول للمريض ومرافقيه    ",
-  },
-  {
-    icon: "icon-mechanic",
+    icon: "icon-wallet",
     title:
-      "عرض التقرير على أفضل الأطباء وتحديد خطة التشخيص والعلاج في أفضل المستشفيات الألمانية",
+      "متابعة ومراقبة حالة المريض وتطوراتها بالمستشفى أثناء وبعد العلاج    ",
   },
 ];
 
@@ -347,14 +353,6 @@ export const FooterBottomData = {
       icon: "fa fa-facebook-f",
       url: "#",
     },
-    {
-      icon: "fa fa-linkedin",
-      url: "#",
-    },
-    {
-      icon: "fa fa-youtube-play",
-      url: "#",
-    },
   ],
 };
 
@@ -368,15 +366,15 @@ export const FooterInfo = [
   {
     icon: "icon-contact",
     tagLine: "Email",
-    text: "help@loazzne.com",
-    url: "mailto:help@loazzne.com",
+    text: "sh@germanhealthservices.com",
+    url: "mailto:sh@germanhealthservices.com",
   },
 ];
 
 export const FooterWidgets = {
   about: {
-    title: "About Loazzne",
-    text: "At Lennom, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
+    // title: "About Loazzne",
+    // text: "At Lennom, We don’t just provide resi-dential and commercial heating and air conditioning services; we make people’s lives easier. Better.",
     tagLine: "Get a Quote",
     phone: "666 888 000",
   },

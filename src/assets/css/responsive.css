@@ -1,3 +1,11 @@
+
+@media only screen and (max-width:1024px) {
+  .slider_overlay{
+    width: 100%;
+    /* right: -20px; */
+    
+  }
+}
 /* Responsive Devise For XS mobile */
 @media only screen and (max-width: 384px) {
   .blog_share_details h1 {

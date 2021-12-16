@@ -41,8 +41,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>
-          {PageTitle} - Loazzne - Heating & Air Conditioning Services GatsbyJs
-          Template{" "}
+          {PageTitle} German Health Services - خدمات العلاج بألمانيا للقادمين من دول الخليج - الملحقية
         </title>
       </Head>
       <SimpleReactLightbox>
