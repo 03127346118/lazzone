@@ -11,15 +11,15 @@ import serviceImage4 from "@/images/services/service-4.jpg";
 import serviceImage5 from "@/images/services/service-5.jpg";
 import serviceImage6 from "@/images/services/services-6.jpg";
 import funfactShape from "@/images/shape/about-shape.png";
-import galleryOne1 from "@/images/gallery/gallery-1.jpg";
-import galleryOne2 from "@/images/gallery/gallery-2.jpg";
-import galleryOne3 from "@/images/gallery/gallery-3.jpg";
-import galleryOne4 from "@/images/gallery/gallery-4.jpg";
-import galleryOne5 from "@/images/gallery/gallery-5.jpg";
-import galleryOne6 from "@/images/gallery/gallery-6.jpg";
-import testimonial1 from "@/images/testimonial/testimonial-1.jpg";
-import testimonial2 from "@/images/testimonial/testimonial-2.jpg";
-import testimonial3 from "@/images/testimonial/testimonial-3.jpg";
+import galleryOne1 from "@/images/microscope-solid.svg";
+import galleryOne2 from "@/images/heartbeat-solid.svg";
+import galleryOne6 from "@/images/person-dots-from-line-solid.svg";
+import galleryOne5 from "@/images/brain-solid.svg";
+import galleryOne3 from "@/images/broken-bone.png";
+import galleryOne4 from "@/images/family.png";
+import testimonial1 from "@/images/comments-solid.svg";
+import testimonial2 from "@/images/comments-solid.svg";
+import testimonial3 from "@/images/comments-solid.svg";
 import blog1 from "@/images/blog/blog-1.jpg";
 import blog2 from "@/images/blog/blog-2.jpg";
 import blog3 from "@/images/blog/blog-3.jpg";
@@ -47,45 +47,41 @@ export const TopbarInfos = [
   {
     icon: "icon-placeholder",
     tagLine: "Address",
-    text: "66 Broklyn Street, New York",
+    text: "Thurn-und-Taxis-Platz 1, 60313 Frankfurt am Main",
     url: "#",
   },
   {
     icon: "fa fa-whatsapp",
-    tagLine: "Call Now",
-    text: "666 888 000",
-    url: "tel:666-888-000",
-  },
-  {
-    icon: "icon-clock",
-    tagLine: "Open Hours",
-    text: " Mon-Sat: 9am - 6pm",
-    url: "#",
+    tagLine: "اتصل الان",
+    text: "+4917622351607",
+    url: "https://web.whatsapp.com/send?phone=+4917622351607",
   },
 ];
 
 export const SlideOneData = [
   {
     backgroundImage: slideOneImage1,
-    title: "Heating and Air Conditioning Specialist",
-    text: "Choose the Best Company",
+    title: `يعاني غالبية المرضى المتقدمين على العلاج في ألمانيا من صعوبة البحث عن أطباء أكفاء. 
+    نحن نساعدك على اختيار الوجهة الصحيحة لتلقي العلاج ونقدم لكم خدمات طول مدة اقامتكم.
+    `,
+    text: "اختر أفضل شركة",
     button: "GET A FREE QUOTE",
     url: "/contact",
   },
   {
     backgroundImage: slideOneImage2,
-    title: "Installation Services & Repair",
+    title: "نوفر لزبائننا أحسن الخدمات السياحية العلاجية بأرقى مراكز الإستشفاء بألمانيا",
     text: "Reliable Air Conditioning",
     button: "GET A FREE QUOTE",
     url: "/contact",
   },
-  {
-    backgroundImage: slideOneImage3,
-    title: "Heating and Air Conditioning Specialist",
-    text: "Choose the Best Company",
-    button: "GET A FREE QUOTE",
-    url: "/contact",
-  },
+  // {
+  //   backgroundImage: slideOneImage3,
+  //   title: "Heating and Air Conditioning Specialist",
+  //   text: "Choose the Best Company",
+  //   button: "GET A FREE QUOTE",
+  //   url: "/contact",
+  // },
 ];
 
 export const SlideTwoData = [
@@ -213,10 +209,11 @@ export const ServiceOneData = {
 };
 
 export const CallToActionOneData = {
-  title: "No overtime charges, 7 days a week",
+  title:
+    "  عند طلب العلاج في ألمانيا، فأنت تحتاج إلى المساعدة في أمور متعددة مثل النقل، الإقامة والترجمة. لا تردد في الاتصال بنا",
   button: {
     url: "/contact",
-    label: "GET A FREE QUOTE",
+    label: "الحصول على أسعار مجاني",
   },
 };
 
@@ -252,79 +249,72 @@ export const FunfactOneData = {
 
 export const GalleryOneData = [
   {
-    title: "Maintenance and Repair",
+    title: "علاج السرطان",
     image: galleryOne1,
     url: "#",
   },
   {
-    title: "Maintenance and Repair",
+    title: "جراحات القلب",
     image: galleryOne2,
     url: "#",
   },
   {
-    title: "Maintenance and Repair",
+    title: "جراحة العظام",
     image: galleryOne3,
     url: "#",
   },
   {
-    title: "Maintenance and Repair",
+    title: "لاج العقم",
     image: galleryOne4,
     url: "#",
   },
   {
-    title: "Maintenance and Repair",
+    title: "الأمراض العصبية",
     image: galleryOne5,
     url: "#",
   },
   {
-    title: "Maintenance and Repair",
+    title: "طب إعادة التأهيل",
     image: galleryOne6,
     url: "#",
   },
 ];
 
 export const TestimonialOneData = {
-  title: "Testimonials",
+  title: "تعليقات الزبناء",
   posts: [
     {
       image: testimonial1,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+      content: `السلام عليكم
+        نشكركم على خدماتكم المميزة ونتمنى لكم مزيدا من النجاح وتحياتي لكم`,
       name: "Della Barnett",
       designation: "CEO",
     },
     {
       image: testimonial2,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+      content: `السلام عليكم
+      ما شاء الله تبارك على الاستاذ سعد تعاملت معه في وقت العلاج وبعد العلاج وإلى الآن
+      متواصل معاه مهتم جدا بالمريض وهمته عالية. الله يوفقه ويشفي جميع المرضى
+      `,
       name: "Max Dunn",
       designation: "Developer",
     },
-    {
-      image: testimonial3,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
-      name: "Alberta Potter",
-      designation: "Director",
-    },
+
     {
       image: testimonial1,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+      content: `شركة خدمات طبية تستحق الثقة بارك الله فيكم على حسن استقبالكم في فرانكفورت وخدماتكم المميزة `,
       name: "Della Barnett",
       designation: "CEO",
     },
     {
       image: testimonial2,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+      content: `الصراحة أنا تعاملت مع أخي الأستاذ سعد. كان يترجم ويعطي من قلبه ويسأل الدكتور أسئلة ماطرت في بالك. شكرا جزيلا على تعبك معنا`,
       name: "Max Dunn",
       designation: "Developer",
     },
     {
       image: testimonial3,
-      content:
-        "This is due to their excellent service, competitive pricing and customer support . It's throughly refresing to get such a personal touch.",
+      content: `الله يعطيكم العافية وجهودكم دايم طيب. شفت شغلكم من حوالي 8 سنوات وبكل صراحة شغلكم جبار وخدماتكم روعة`,
       name: "Alberta Potter",
       designation: "Director",
     },
@@ -365,12 +355,7 @@ export const FooterInfo = [
     text: "help@loazzne.com",
     url: "mailto:help@loazzne.com",
   },
-  {
-    icon: "icon-clock",
-    tagLine: "Open Hours",
-    text: " Mon-Sat: 9am - 6pm",
-    url: "#",
-  },
+ 
 ];
 
 export const FooterWidgets = {

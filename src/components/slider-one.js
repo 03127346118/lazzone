@@ -11,8 +11,8 @@ const SliderOne = () => {
     loop: true,
     effect: "fade",
     autoplay: {
-      delay: 5000
-    }
+      delay: 5000,
+    },
   };
   return (
     <section className="main-slider header_slider_area ">
@@ -27,13 +27,26 @@ const SliderOne = () => {
 
               <Container>
                 <Row>
-                  <Col lg={{span:"6",offset:"6"}}>
+                  <Col lg={{ span: "6", offset: "6" }}>
+                    <div
+                      style={{
+                        position: "absolute",
+                        height: "100%",
+                        width: "60%",
+                        right: "-20px",
+                        backgroundColor: "white",
+                        opacity: "0.8",
+                      }}
+                    ></div>
                     <p className="main-slider__subtext">
-                      <span className="subtitle_number">0{index + 1}</span>{" "}
+                      <span className="subtitle_number">{index + 1}</span>{" "}
                       {text}
                     </p>
-                    <h1 className="main-slider__title">{title}</h1>
-                    <div className="slide_button" style={{textAlign:'right'}}>
+                    <p style={{fontSize:"1.5rem"}} className="main-slider__title"><b>{title}</b></p>
+                    <div
+                      className="slide_button"
+                      style={{ textAlign: "right" }}
+                    >
                       <Link href={url} className="btn-yellow">
                         {button}
                       </Link>

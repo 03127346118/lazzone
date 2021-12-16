@@ -7,7 +7,7 @@ const GalleryCard = ({ src, alt, title, url }) => {
     <div className="gallery_width">
       <div className="gallery_fixed_height">
         <div className="gallery_width__image">
-          <Img src={src} alt={alt} className="img-fluid" />
+          <Img src={src} alt={alt} className="img-fluid p-5" />
         </div>
         <div className="gallery_overlay">
           <h3>{title}</h3>

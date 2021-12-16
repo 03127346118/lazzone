@@ -32,8 +32,9 @@ const TestimonialsOne = () => {
     }
   };
   return (
-    <section className="testimonial_area text-center section_padding">
-      <h1 className="testimonial_heading_shape">{title}</h1>
+    <section className="testimonial_area text-center section_padding" >
+      {/* <h1 className="testimonial_heading_shape">{title}</h1> */}
+      
       <Container>
         <Swiper
           id="testimonials-two__thumb"
@@ -54,6 +55,7 @@ const TestimonialsOne = () => {
           thumbs={{ swiper: thumbsSwiper }}
           {...testimonialsOptions}
         >
+          
           {posts.map(({ designation, name, content }, index) => (
             <SwiperSlide key={index} className="testimonial_details">
               <p>{content}</p>

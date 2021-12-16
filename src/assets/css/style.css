@@ -1614,6 +1614,7 @@ section.about_area img.about_shape {
   z-index: 899;
 }
 .testimonial_area {
+background: url("/static/slider-3-c1330a48fb3981c7bde6f5b586f611a3.jpg") no-repeat center center;
   position: relative;
   background-color: #f1f1f1;
   width: 100%;
@@ -3221,7 +3222,11 @@ input.half_width {
   opacity: 1;
   visibility: visible;
 }
-
+.testimonial_details{
+  background-color: white;
+  padding: 2rem;
+  margin-top: 1rem;
+}
 .testimonial_details p {
   max-width: 750px;
   margin-left: auto;
