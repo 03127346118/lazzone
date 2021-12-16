@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer_content section_padding">
+      {/* <div className="footer_content section_padding">
         <div className="container">
           <div className="row">
             <div className="col-md-4 col-sm-6">
@@ -85,7 +85,7 @@ const Footer = () => {
       </div>
       <div className="footer_shape">
         <Img src={FooterShape} alt="footer shape" />
-      </div>
+      </div> */}
     </footer>
   );
 };

@@ -58,9 +58,9 @@ const TestimonialsOne = () => {
           
           {posts.map(({ designation, name, content }, index) => (
             <SwiperSlide key={index} className="testimonial_details">
-              <p>{content}</p>
-              <h4>{name}</h4>
-              <span>{designation}</span>
+              <p style={{direction:"rtl"}}>{content}</p>
+              {/* <h4>{name}</h4>
+              <span>{designation}</span> */}
             </SwiperSlide>
           ))}
           <div className="swiper-button-prev" id="testi-slide-prev">

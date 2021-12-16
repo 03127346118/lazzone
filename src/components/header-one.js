@@ -92,7 +92,7 @@ const HeaderOne = () => {
               </ul>
             </nav>
             <Link href="/contact" className="btn-yellow">
-              BOOK TODAY
+              اتصل بنا الآن
             </Link>
           </div>
         </div>

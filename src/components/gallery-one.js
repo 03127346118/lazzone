@@ -6,11 +6,11 @@ import GalleryCard from "@/components/gallery-card";
 const GalleryOne = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mt-2 pt-5 ">
         <div className="row">
           <div className="col-md-12">
             <div className="hero-section-title text-center">
-              <h1>التخصصات الطبية </h1>
+              <h1 className="pb-4">التخصصات الطبية </h1>
               <p>
                 تتيح ألمانيا للمرضى الذين يأتون إلى العلاج برنامجا كاملا من
                 الخبرات الطبية في جميع التخصصات. يوجد في ألمانيا أطباء متخصصين

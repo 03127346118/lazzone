@@ -13,7 +13,7 @@ const ContactOne = () => {
       </div>
       <div className="contact_form_width contact-right">
         <div className="hero-title-with-shape">
-          <h4 className="heading_with_border">Get a free quote</h4>
+          <h4 className="heading_with_border">الحصول على أسعار مجاني</h4>
           <p>
             تواصل معنا للحصول على قبول علاج من مستشفى ألماني، لعرض تكاليف علاج
             ،أو للحصول على رأي طبي ثاني. سنقوم بمساعدتك والإجابة عن أسئلتك فيما
@@ -43,8 +43,8 @@ const ContactOne = () => {
               <option value="option4">Service 4</option>
             </select>
           </span>
-          <button className="btn-yellow" value="SUBMIT NOW">
-            SUBMIT NOW
+          <button className="btn-yellow" value="SUBMIT">
+          يقدم الآن
           </button>
         </form>
       </div>

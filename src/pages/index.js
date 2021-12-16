@@ -8,10 +8,10 @@ import FeatureOne from "@/components/feature-one";
 import AboutOne from "@/components/about-one";
 import ServiceOne from "@/components/service-one";
 import CtaOne from "@/components/cta-one";
-import FunfactOne from "@/components/funfact-one";
+// import FunfactOne from "@/components/funfact-one";
 import GalleryOne from "@/components/gallery-one";
 import TestimonialsOne from "@/components/testimonials-one";
-import SponsorOne from "@/components/sponsor-one";
+// import SponsorOne from "@/components/sponsor-one";
 
 
 import ContactOne from "@/components/contact-one";
@@ -25,10 +25,10 @@ const HomeOne = () => {
         <AboutOne />
         <ServiceOne />
         <CtaOne />
-        <FunfactOne />
+        {/* <FunfactOne /> */}
         <GalleryOne />
         <TestimonialsOne />
-        <SponsorOne />
+        {/* <SponsorOne /> */}
         
         
         <ContactOne />

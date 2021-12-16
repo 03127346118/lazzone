@@ -6,7 +6,7 @@ const ServiceSidebar = () => {
   const [activeTwo, setActiveTwo] = useState(1);
   return (
     <div className="service_details_right">
-      <h1 className="text-center">Our Services</h1>
+      <h1 className="text-center">خدماتنا</h1>
       <div className="service_details_sv_cnt text-center service_cool_head">
         <ul className="nav nav-tabs">
           {ServiceSidebarListData.map(({ icon, title }, index) => (

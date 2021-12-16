@@ -11,7 +11,7 @@ const SliderOne = () => {
     loop: true,
     effect: "fade",
     autoplay: {
-      delay: 5000,
+      delay: 10000,
     },
   };
   return (
@@ -39,7 +39,7 @@ const SliderOne = () => {
                       }}
                     ></div>
                     <p className="main-slider__subtext">
-                      <span className="subtitle_number">{index + 1}</span>{" "}
+                      <span className="subtitle_number mt-4 mb-5"></span>{" "}
                       {text}
                     </p>
                     <p style={{fontSize:"1.5rem"}} className="main-slider__title"><b>{title}</b></p>

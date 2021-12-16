@@ -38,7 +38,7 @@ const Comments = () => {
               placeholder="Write your message"
             ></textarea>
             <a href="#" className="btn-yellow">
-              SUBMIT NOW
+            يقدم الآن
             </a>
           </form>
         </div>

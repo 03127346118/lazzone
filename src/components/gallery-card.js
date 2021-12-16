@@ -10,9 +10,11 @@ const GalleryCard = ({ src, alt, title, url }) => {
           <Img src={src} alt={alt} className="img-fluid p-5" />
         </div>
         <div className="gallery_overlay">
-          <h3>{title}</h3>
-          <SRLWrapper>
-            <a
+          <div className="gallery-overlay-wrapper">
+            <h3>{title}</h3>
+          </div>
+          {/* <SRLWrapper> */}
+            {/* <a
               href={src}
               className="gallery_icon_btn text-center"
               data-attribute="SRL"
@@ -20,8 +22,8 @@ const GalleryCard = ({ src, alt, title, url }) => {
             >
               <img src={src} className="img-fluid" alt={title} />
               <i className="fa fa-angle-right"></i>
-            </a>
-          </SRLWrapper>
+            </a> */}
+          {/* </SRLWrapper> */}
         </div>
       </div>
     </div>

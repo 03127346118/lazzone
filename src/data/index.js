@@ -41,19 +41,34 @@ export const NavLinksData = [
   {
     url: "/",
   },
+  {
+    name: "اتصل بنا     ",
+  },
+  {
+    name: "خدماتنا   ",
+  },
+  {
+    name: "من نحن  ",
+  },
+  {
+    name: "الرئيسية ",
+  },
+  
+  
+  
 ];
 
 export const TopbarInfos = [
   {
     icon: "icon-placeholder",
-    tagLine: "Address",
+    tagLine: "",
     text: "Thurn-und-Taxis-Platz 1, 60313 Frankfurt am Main",
     url: "#",
   },
   {
     icon: "fa fa-whatsapp",
     tagLine: "اتصل الان",
-    text: "+4917622351607",
+    text: `49176223516071`,
     url: "https://web.whatsapp.com/send?phone=+4917622351607",
   },
 ];
@@ -65,14 +80,15 @@ export const SlideOneData = [
     نحن نساعدك على اختيار الوجهة الصحيحة لتلقي العلاج ونقدم لكم خدمات طول مدة اقامتكم.
     `,
     text: "اختر أفضل شركة",
-    button: "GET A FREE QUOTE",
+    button: "تواصل معنا",
     url: "/contact",
   },
   {
     backgroundImage: slideOneImage2,
-    title: "نوفر لزبائننا أحسن الخدمات السياحية العلاجية بأرقى مراكز الإستشفاء بألمانيا",
-    text: "Reliable Air Conditioning",
-    button: "GET A FREE QUOTE",
+    title:
+      "نوفر لزبائننا أحسن الخدمات السياحية العلاجية بأرقى مراكز الإستشفاء بألمانيا",
+    text: "",
+    button: "تواصل معنا",
     url: "/contact",
   },
   // {
@@ -88,19 +104,19 @@ export const SlideTwoData = [
   {
     backgroundImage: slideOneImage4,
     title: "Heating and Air Conditioning Specialis",
-    button: "GET A FREE QUOTE",
+    button: "الحصول على أسعار مجاني",
     url: "/contact",
   },
   {
     backgroundImage: slideOneImage5,
     title: "Keep your family happy this winter, and warm.",
-    button: "GET A FREE QUOTE",
+    button: "الحصول على أسعار مجاني",
     url: "/contact",
   },
   {
     backgroundImage: slideOneImage4,
     title: "Heating and Air Conditioning Specialist",
-    button: "GET A FREE QUOTE",
+    button: "الحصول على أسعار مجاني",
     url: "/contact",
   },
 ];
@@ -138,12 +154,12 @@ export const AboutOneData = {
     "بدأ خدماتنا إبتداء بعد إستلام التقارير الطبية الخاصة بالحالة المرضية والتي يفضل أن تكون باللغة الإنجليزية، بعد ذلك نشرع مباشرة بالترتيب والتنسيق الكاملين مع المستشفيات الألمانية",
   button: {
     url: "/about",
-    label: "LEARN MORE",
+    label: "اقرأ المزيد    ",
   },
 };
 
 export const ServiceOneData = {
-  title: "Our services",
+  title: "خدماتنا",
   posts: [
     {
       image: serviceImage3,
@@ -151,7 +167,7 @@ export const ServiceOneData = {
       title: "خدمات المرافقين ",
 
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -162,7 +178,7 @@ export const ServiceOneData = {
       title: "رعاية المرضى",
 
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -170,7 +186,7 @@ export const ServiceOneData = {
       image: serviceImage1,
       title: " لنقل",
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -181,7 +197,7 @@ export const ServiceOneData = {
       title: "الإقامة",
 
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -191,7 +207,7 @@ export const ServiceOneData = {
       title: "التأشيرة",
 
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -201,7 +217,7 @@ export const ServiceOneData = {
       title: "الترجمة",
 
       button: {
-        label: "LEARN MORE",
+        label: "اقرأ المزيد",
         url: "/service-details",
       },
     },
@@ -345,8 +361,8 @@ export const FooterBottomData = {
 export const FooterInfo = [
   {
     icon: "icon-placeholder",
-    tagLine: "Address",
-    text: "66 Broklyn Street, New York",
+    tagLine: "",
+    text: " Thurn-und-Taxis-Platz 1, 60313 Frankfurt am Main",
     url: "#",
   },
   {
@@ -355,7 +371,6 @@ export const FooterInfo = [
     text: "help@loazzne.com",
     url: "mailto:help@loazzne.com",
   },
- 
 ];
 
 export const FooterWidgets = {
