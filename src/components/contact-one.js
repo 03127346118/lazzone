@@ -127,7 +127,7 @@ class ContactOne extends Component {
             {this.state.status === "success" && (
               <div className="text-success text-center">
                 <i className="fa fa-check-circle" aria-hidden="true"></i> You've
-                successfully subscribed our Newsletter.
+                successfully sent request we will contact you soon.
               </div>
             )}
           </form>
